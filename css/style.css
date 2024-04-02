@@ -82,9 +82,20 @@
     align-items: center;
     
   }
-  .header .logo {
-    width: 4%;
+  .header  .logo{
+    width: 60px;
   }
+
+  .logo{
+    width: 30px;
+  }
+
+  @media (max-width: 768px) {
+    .logo  {
+      width: 40px;
+    }
+  }
+
   .header .links {
     position: relative;
   }
